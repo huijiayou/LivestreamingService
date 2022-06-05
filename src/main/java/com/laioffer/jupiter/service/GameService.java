@@ -24,7 +24,7 @@ import java.net.URLEncoder;
 
 @Service
 public class GameService {
-    private static final String TOKEN = "Bearer 83zlv39lbt1jwbqzcg90satrfpi5o1";
+    private static final String TOKEN = "Bearer ";
     private static final String CLIENT_ID = "3sfe9dj4aqwxfqnn7umo786u1b9kka";
     private static final String TOP_GAME_URL = "https://api.twitch.tv/helix/games/top?first=%s";
     private static final String GAME_SEARCH_URL_TEMPLATE = "https://api.twitch.tv/helix/games?name=%s";
